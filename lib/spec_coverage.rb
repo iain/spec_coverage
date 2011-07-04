@@ -1,5 +1,3 @@
-require "spec_coverage/version"
-
 require 'rspec/core/formatters/base_formatter'
 require 'simplecov'
 

@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/spec_coverage/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Iain Hecker"]
@@ -13,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "spec_coverage"
   gem.require_paths = ['lib']
-  gem.version       = SpecCoverage::VERSION
+  gem.version       = '0.0.2'
 
   gem.add_dependency('rspec',     ['~> 2.0'])
   gem.add_dependency('simplecov', ['~> 0.4.2'])
