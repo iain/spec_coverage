@@ -8,7 +8,7 @@ The only problem is that you'll need to have something like a spec_helper to loa
 
 If you are using bundler, then don't forget to add simplecov to your `Gemfile`:
 
-    gem 'simplecov', :group => :test, :require => false
+    gem 'spec_coverage', :group => :test, :require => false
 
 
 ## Usage
