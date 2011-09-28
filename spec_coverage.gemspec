@@ -12,10 +12,10 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "spec_coverage"
   gem.require_paths = ['lib']
-  gem.version       = '0.0.3'
+  gem.version       = '0.0.4'
 
   gem.add_dependency('rspec',     ['~> 2.0'])
-  gem.add_dependency('simplecov', ['~> 0.4.2'])
+  gem.add_dependency('simplecov', ['~> 0.5.3'])
 
   gem.required_ruby_version = ">= 1.9"
 end
