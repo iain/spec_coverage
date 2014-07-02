@@ -14,6 +14,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = '0.0.5'
 
-  gem.add_dependency 'rspec', '~> 2.0'
+  gem.add_dependency 'rspec', '>= 2.0.0', '< 4.0'
   gem.add_dependency 'simplecov'
 end
