@@ -8,6 +8,7 @@ require 'simplecov'
 #   rspec spec -f SpecCoverage -fd
 #
 class SpecCoverage < ::RSpec::Core::Formatters::BaseFormatter
+  RSpec::Core::Formatters.register(self) if RSpec::Core::Formatters.respond_to?(:register)
 
   def initialize(*)
     super
